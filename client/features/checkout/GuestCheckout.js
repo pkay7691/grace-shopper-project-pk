@@ -142,7 +142,7 @@ const GuestCheckout = () => {
           {cart.map((product) => {
             return (
               <div className="productBox" key={product.id}>
-                <img className="checkoutImg" src={`/${product.imageUrl}`} />
+                <img className="checkoutImg" src={`${product.imageUrl}`} />
                 <h4 className="checkoutName">{product.name}</h4>
                 <p className="checkoutQuantity">
                   Quantity: {product.cartQuantity}
