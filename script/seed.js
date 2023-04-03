@@ -37,6 +37,7 @@ function createProducts() {
   for (let i = 0; i < 100; i++) {
     products.push({
       name: faker.helpers.unique(faker.commerce.productName),
+      imageUrl: faker.image.cats(640, 480, true),
       quantity: faker.random.numeric(3),
       description: faker.commerce.productDescription(),
       price: faker.datatype.number({ min: 1, max: 1000, precision: 0.01 }),

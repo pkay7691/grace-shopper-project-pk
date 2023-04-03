@@ -28,8 +28,8 @@ const AllProducts = () => {
           <Link to={`/products/${product.id}`} key={product.id}>
             <div className="productCard">
               <div className="productCardInner">
-                <div className="cardImage">
-                  <img src={`/${product.imageUrl}`} />
+                <div className="cardImageContainer">
+                  <img className='cardImage'src={`${product.imageUrl}`} />
                 </div>
                 <div className="productCardBottom">
                   <h2 className="cardName">{product.name}</h2>

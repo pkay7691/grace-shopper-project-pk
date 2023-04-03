@@ -45,6 +45,16 @@ div.product{
   bottom: 0.625em;
   color: #000;
 }
+.cardImageContainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.cardImage{
+  width: 95%
+}
 
 
 
