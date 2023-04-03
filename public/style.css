@@ -532,7 +532,9 @@ nav a:hover {
   width: 65%;
 
 }
-
+.single-product-image {
+  width: 90%;
+}
 
 .single-product-container-right {
   display: flex;

@@ -66,7 +66,7 @@ const SingleProduct = () => {
         <div className='single-product'>
         <div className='single-product-container'>
             <div className='single-product-container-left'>
-            <img src={`/${product.imageUrl}`} />
+            <img className='single-product-image' src={`${product.imageUrl}`} />
             </div>
             <div className='single-product-container-right'>
             <div className='single-product-name'> {product.name}</div>
