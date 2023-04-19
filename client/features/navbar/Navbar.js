@@ -30,10 +30,10 @@ const Navbar = () => {
   return (
     <div className="top">
       <div className="top-left">
-        <h1>GraceShopper</h1>
+        <h1>CatShopper</h1>
         <div className='top-center'>
           <Link className='top-item' to="/home">Home</Link>
-          <Link className='top-item' to="/products">Products</Link>
+          <Link className='top-item' to="/products">Cats</Link>
           <Link className='top-item' to="/cart">Cart</Link>
           {isLoggedIn ? (
             <Link className='top-item' to="/useredit">Edit</Link>

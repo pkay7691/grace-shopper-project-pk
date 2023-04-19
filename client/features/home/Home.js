@@ -8,7 +8,7 @@ const Home = (props) => {
   return (
     <div className="welcome">
       <div className="message">
-        <h3>Welcome to the Homepage!</h3>
+        <h3>Welcome to CatShopper!</h3>
       </div>
     </div>
   );
