@@ -5,12 +5,6 @@
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
-    url("https://assets-global.website-files.com/600fe6e1ff56087409a9f096/605b5a558848493df14d2d13_ecommerce-product-photography.jpg")
-      no-repeat center fixed;
   background-size: cover;
 
 }
@@ -157,7 +151,7 @@ nav a:hover {
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://andrewminalto.com/wp-content/uploads/2021/01/aceb5-garlic-press.jpg");
+    url("https://wallpapers.com/images/featured/g9rdx9uk2425fip2.jpg");
   background-size: cover;
 }
 
@@ -465,26 +459,42 @@ nav a:hover {
 .welcome{
   display:flex;
   position: relative;
-  height: 50vh;
+  height: 82vh;
   width: 100vw;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: #407076;
   background: 
-  url("https://www.freewebheaders.com/wp-content/gallery/cats/cute-abyssinian-kittens-website-header.jpg");
+  url("https://wallpaper-house.com/data/out/2/wallpaper2you_19985.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
+
 .message{
   position: absolute;
-  width: 400px;
+  width: 20vw;
   height: 100px;
-  font-size: 40px;
-  right: 20px;
-  bottom: 60px;
+  font-size: 2.5vw;
+  top: 15%;
+  right: 5%;
   font-weight: 400;
-  font-style: oblique;
+  font-family: 'Roboto Mono';
+  font-style: italic;
+
+}
+
+.welcome-cat-shopper {
+  width: 40vw;
+  position: absolute;
+  font-size: 3vw;
+  top: 10%;
+  left: 5%;
+  height: 50%;
+  font-weight: 400;
+  font-family: 'Roboto Mono'
 }
 
 .confirmation{
