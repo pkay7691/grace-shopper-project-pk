@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
 /*  this is where Arthur css start */
 .productsPage {
   display: grid;
@@ -48,6 +50,12 @@ div.product{
 
 .cardImage{
   width: 95%
+}
+
+.nav-logo {
+  height: 80px;
+  margin: 10px
+
 }
 
 
@@ -456,46 +464,104 @@ nav a:hover {
 
 /* Responsive screen section */
 /* home page section */
-.welcome{
-  display:flex;
+.welcome {
   position: relative;
-  height: 82vh;
-  width: 100vw;
-  flex-direction: row;
-  justify-content: center;
+}
+.welcome-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 5vw;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* .welcome-button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+
+} */
+
+
+/* CSS */
+.welcome-button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   align-items: center;
-  background-color: #407076;
-  background: 
-  url("https://wallpaper-house.com/data/out/2/wallpaper2you_19985.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  fill: currentcolor;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 36px;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
 
+.welcome-button:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.welcome-button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.welcome-button:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.welcome-button:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.welcome-button:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.welcome-button:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.welcome-button:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.welcome-button:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
 }
 
 
-.message{
-  position: absolute;
-  width: 20vw;
-  height: 100px;
-  font-size: 2.5vw;
-  top: 15%;
-  right: 5%;
-  font-weight: 400;
-  font-family: 'Roboto Mono';
-  font-style: italic;
 
-}
-
-.welcome-cat-shopper {
-  width: 40vw;
-  position: absolute;
-  font-size: 3vw;
-  top: 10%;
-  left: 5%;
-  height: 50%;
-  font-weight: 400;
-  font-family: 'Roboto Mono'
-}
 
 .confirmation{
   display:flex;
@@ -514,6 +580,11 @@ nav a:hover {
   font-weight: 400;
   font-style: oblique;
   font-size: 40px;
+}
+
+#cat-video {
+ width: 100%;
+
 }
 
 

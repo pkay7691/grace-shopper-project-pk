@@ -7,14 +7,12 @@ import { useSelector } from "react-redux";
 const Home = (props) => {
   return (
     <div className="welcome">
-      <div className="welcome-cat-shopper">
-        <h3>Welcome to CatShopper!</h3>
-      </div>
-      <div className="message">
-        <h3>"Buying cats has never been this easy" - Local
-           Cat Lady</h3>
-      </div>
-      {/* <img id='welcome-cat-shopper' src="bigcatshopper-removebg-preview.png" /> */}
+
+      <video id='cat-video' autoPlay muted loop>
+        <source src='cat_in_the_sun.mp4' type='video/mp4' />
+      </video> 
+      <div className='welcome-message'>Find Your Forever Friend</div>
+      <button className='welcome-button'>Explore</button>
     </div>
   );
 };
